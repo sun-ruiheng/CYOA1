@@ -3,9 +3,10 @@ let gameState = {}
 function preload () {
   // load in background and characters
   this.load.image('bg',     'https://content.codecademy.com/projects/learn-phaser/cyoa/background.png');
-  this.load.image('knight', 'https://content.codecademy.com/projects/learn-phaser/cyoa/knight.png');
   this.load.image('orc',    './images/kexinandkobi2.jpg');
-  this.load.image('wizard', 'https://content.codecademy.com/projects/learn-phaser/cyoa/wizard.png');
+  this.load.image('kexin',  './images/kexin1.jpg');
+  this.load.image('sadKX',  './images/sadkexin.jpg');
+  this.load.image('duckKX', './images/duckkexin.jpg');
 }
 
 
@@ -142,7 +143,7 @@ function fetchPage(page) {
 
    const pages = [
      {
-      character: 'orc',
+      character: 'kexin',
       page: 1,
       narrative: 'Hey, good to meet you. I\'m Xie Ke Xin.',
       options: [
@@ -152,19 +153,19 @@ function fetchPage(page) {
     },
 
     {
-      character: 'orc',
+      character: 'kexin',
       page: 41,
-      narrative: 'Ming: Uhm. Excuse me?!',
+      narrative: 'Uhm. Excuse me?!',
       options: [
-        { option: 'Say Hi',     nextPage: 2 },
+        { option: 'Ok fine wtf do you want',     nextPage: 2 },
         { option: 'Continue Ignoring',   nextPage: 3 },
       ]
     },
 
     {
-      character: 'orc',
+      character: 'kexin',
       page: 2,
-      narrative: 'Ming: PLS FUCK ME PLS FIDDLE MY SUGAR BOWL',
+      narrative: 'Can you please help me and my bibiboi?',
       options: [
         { option: 'Your... what?',   nextPage: 5 },
         { option: 'Don\'t think so',   nextPage: 4 },
@@ -174,9 +175,9 @@ function fetchPage(page) {
     {
       character: 'orc',
       page: 5,
-      narrative: 'Orc: My sugar bowl. Am I hard to understand? I can\'t reach it by myself but I think you could help.',
+      narrative: 'My dog... His name is Kobi and he\'s very sick.',
       options: [
-        { option: 'How do I help',   nextPage: 6 },
+        { option: 'How so?',   nextPage: 6 },
         { option: 'No I don\'t think so',   nextPage: 4 },
       ]
     },
@@ -184,16 +185,26 @@ function fetchPage(page) {
     {
       character: 'orc',
       page: 6,
-      narrative: 'Orc: If I lift you up there do you think you can grab it?',
+      narrative: 'He\'s overweight as fuck, and chokes and gags and wheezes in his sleep every night.',
       options: [
-        { option: 'Grab it',   nextPage: 10 },
+        { option: 'Laugh at Kobi for being obese',   nextPage: 48 },
+        { option: 'And why is he this way?', nextPage: 10}
+      ]
+    },
+
+    {
+      character: 'orc',
+      page: 48,
+      narrative: 'Ke Xin is angry and upset, and decides to abandon Kobi. Kobi dies immediately. Ke Xin now hates you.',
+      options: [
+        { option: 'umm... lol ok',   nextPage: 10 } //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
       ]
     },
 
     {
       character: 'orc',
       page: 10,
-      narrative: 'Orc: Thank you so much, folks usually just slink away because of my appearance.',
+      narrative: 'He\'s a greedy, lazy bastard haha. Any fatter and he\'s gonna explode.',
       options: [
         { option: 'No problem',   nextPage: 11 },
         { option: 'Really?',   nextPage: 18 },
@@ -341,31 +352,31 @@ function fetchPage(page) {
     },
 
     {
-      character: 'orc',
+      character: 'duckKX',
       page: 3,
-      narrative: 'Orc: Look, I need some help. Can you help me or are you just going to stand there not saying anything?',
+      narrative: 'Pleaseeeeee look I\'m such a qtpie',
       options: [
-        { option: 'What do you need?',  nextPage: 2 },
+        { option: 'Ok wtf fine! What?',  nextPage: 2 },
         { option: 'Walk away slowly',   nextPage: 4 },
       ]
     },
 
     {
-      character: 'orc',
+      character: 'sadKX',
       page: 4,
-      narrative: 'Orc: Oh I see how it is. Look at the real hero here, slinking away from doing anything good.',
+      narrative: 'Oh wow you really won\'t help a desperate woman. You really are a penishead, I FKING HOPE YOU DIE!!!',
       options: [
         { option: 'Leave',   nextPage: 8 },
-        { option: 'Engage',   nextPage: 7 },
+        { option: 'Pee on her',   nextPage: 7 },
       ]
     },
 
     {
       character: 'orc',
       page: 7,
-      narrative: 'You engage in passionate conversation with the orc, and discuss things like adults.',
+      narrative: 'You pee on her and she kind of enjoys it.',
       options: [
-        { option: 'OK',   nextPage: 9 },
+        { option: 'OK',   nextPage: 9 }, //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
       ]
     },
 
