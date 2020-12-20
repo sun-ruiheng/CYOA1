@@ -197,7 +197,7 @@ function fetchPage(page) {
       page: 48,
       narrative: 'Ke Xin is angry and upset, and decides to abandon Kobi. Kobi dies immediately. Ke Xin now hates you.',
       options: [
-        { option: 'umm... lol ok',   nextPage: 10 } //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        { option: 'umm... lol ok',   nextPage: 1 } //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
       ]
     },
 
@@ -206,8 +206,8 @@ function fetchPage(page) {
       page: 10,
       narrative: 'He\'s a greedy, lazy bastard haha. Any fatter and he\'s gonna explode.',
       options: [
-        { option: 'No problem',   nextPage: 11 },
-        { option: 'Really?',   nextPage: 18 },
+        { option: 'No problem',   nextPage: 1 }, //11
+        { option: 'Really?',   nextPage: 1 }, //18
       ]
     },
 
@@ -366,7 +366,7 @@ function fetchPage(page) {
       page: 4,
       narrative: 'Oh wow you really won\'t help a desperate woman. You really are a penishead, I FKING HOPE YOU DIE!!!',
       options: [
-        { option: 'Leave',   nextPage: 8 },
+        { option: 'Leave',   nextPage: 1 },
         { option: 'Pee on her',   nextPage: 7 },
       ]
     },
@@ -376,7 +376,7 @@ function fetchPage(page) {
       page: 7,
       narrative: 'You pee on her and she kind of enjoys it.',
       options: [
-        { option: 'OK',   nextPage: 9 }, //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        { option: 'OK',   nextPage: 1 }, //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
       ]
     },
 
