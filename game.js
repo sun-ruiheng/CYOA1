@@ -596,7 +596,7 @@ function fetchPage(page) {
       page: 35,
       narrative: 'See? I\'m a sweetiepie',
       options: [
-        { option: 'You are you aren\'t just constipated?',   nextPage: 36 },
+        { option: 'You sure you aren\'t just constipated?',   nextPage: 36 },
         { option: 'Mmm... you really are!',   nextPage: 37 }
       ]
     },
