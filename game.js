@@ -12,8 +12,22 @@ function preload () {
   this.load.image('deaddog', './images/deadkobi.jpg');
 
   this.load.image('wesley',  './images/cutewesley.jpg');
-  this.load.image('wizley',  './images/wesleychan.jpg');
+  this.load.image('wizley',  './images/wizleybare.jpg');
   this.load.image('wizKyn',  './images/wizleykynan.jpg');
+  this.load.image('wtfwes',  './images/wtfwes.jpg');
+  this.load.image('wizC1',   './images/cutewes1.jpg');
+  this.load.image('wizC2',   './images/cutewes2.jpg');
+  this.load.image('wizC3',   './images/cutewes3.jpg');
+  this.load.image('baldwes', './images/baldwesley.jpg');
+  this.load.image('blurwes', './images/blurredwes.jpg');
+  this.load.image('jon1',    './images/johnny1.png');
+  this.load.image('jon2',    './images/johnny2.jpg');
+  this.load.image('cavewes', './images/cavewes.jpg');
+  this.load.image('bonkwes', './images/bonkwes.jpg');
+  this.load.image('bonkwes2','./images/bonk2.jpg');
+  this.load.image('rh',      './images/rh1.jpg');
+
+
 }
 
 
@@ -357,21 +371,278 @@ function fetchPage(page) {
     {
       character: 'wizKyn',
       page: 20,
-      narrative: 'Wesley changes the heads into two mofos.',
+      narrative: 'Wesley rubs his cock aggressively and summons two mofos out of thin air.',
       options: [
         { option: 'Holy cow!',   nextPage: 21 }
       ]
     },
 
-    
     {
       character: 'wizley',
       page: 21,
       narrative: 'Told you bitchhhh',
       options: [
-        { option: 'Hehe (game ends for now I gtg book in fml I\'ll add more content later)',   nextPage: 1 }
+        { option: 'What else can you do?',   nextPage: 22 },
+        { option: 'Meh idk you kinda suck',   nextPage: 21.5 }
       ]
     },
+
+    {
+      character: 'wtfwes',
+      page: 21.5,
+      narrative: 'wtf...',
+      options: [
+        { option: 'ok ok fine show me more',   nextPage: 22 }
+      ]
+    },
+
+    {
+      character: 'wizley',
+      page: 22,
+      narrative: 'Well, what else do you want to see?',
+      options: [
+        { option: 'Can you turn bald?',   nextPage: 22.5 },
+        { option: 'Turn into a caveman!',   nextPage: 29 },
+        { option: 'Show me a cute ass smile <3',   nextPage: 34 }
+      ]
+    },
+
+    {
+      character: 'baldwes',
+      page: 22.5,
+      narrative: '*POOF* and he turns bald!!!',
+      options: [
+        { option: 'Cool!',   nextPage: 23 }
+      ]
+    },
+
+    {
+      character: 'blurwes',
+      page: 23,
+      narrative: 'Wait... what\'s happening to me? I feel... weird...',
+      options: [
+        { option: 'um...',   nextPage: 24 }
+      ]
+    },
+
+    {
+      character: 'jon1',
+      page: 24,
+      narrative: 'AHHH!!!!!!!!',
+      options: [
+        { option: 'WTF!!!',   nextPage: 25 },
+        { option: 'Oooh hello ;)',   nextPage: 25 }
+      ]
+    },
+
+    {
+      character: 'jon2',
+      page: 25,
+      narrative: 'im horny',
+      options: [
+        { option: 'let\'s FUCK!',   nextPage: 25.5 },
+        { option: 'Ew no wtf wesley',   nextPage: 26 }
+      ]
+    },
+
+    {
+      character: 'jon2',
+      page: 25.5,
+      narrative: 'Johnny-Wesley-Sins fucks you goooood.',
+      options: [
+        { option: 'mmm',   nextPage: 25.6 }
+      ]
+    },
+
+    {
+      character: 'jon2',
+      page: 25.6,
+      narrative: 'My cock stings. I think I have several STDs.',
+      options: [
+        { option: 'You gotta stop being Johnny',   nextPage: 26 }
+      ]
+    },
+
+    {
+      character: 'jon1',
+      page: 26,
+      narrative: 'Ok sorry pls help me be myself again',
+      options: [
+        { option: 'no',   nextPage: 26.1},
+        { option: 'how?',   nextPage: 27 }
+      ]
+    },
+
+    {
+      character: 'jon1',
+      page: 26.1,
+      narrative: 'Johnny-Wesley-Sins is disappointed in you. (TBC!)',
+      options: [
+        { option: '[Restart Game]',   nextPage: 1 }
+      ]
+    },
+
+    {
+      character: 'jon1',
+      page: 27,
+      narrative: 'Here, take this. Aim it at me to bring me back in time.',
+      options: [
+        { option: 'Take the device',   nextPage: 27.1 }
+      ]
+    },
+
+    {
+      character: 'jon1',
+      page: 27.1,
+      narrative: 'Ok do it!',
+      options: [
+        { option: 'Push the button',   nextPage: 27.2 }
+      ]
+    },
+
+    {
+      character: 'wesley',
+      page: 27.2,
+      narrative: 'OK THATS ENOUGH',
+      options: [
+        { option: 'Stop pressing',   nextPage: 28 },
+        { option: 'Continue pressing',   nextPage: 29 }
+      ]
+    },
+
+    {
+      character: 'wesley',
+      page: 28,
+      narrative: 'Thanks for the help! (TBC!)',
+      options: [
+        { option: '[Restart Game]',   nextPage: 1 }
+      ]
+    },
+
+    {
+      character: 'cavewes',
+      page: 29,
+      narrative: 'Fuck... I\'m a caveman... googoogaagaa',
+      options: [
+        { option: '...You ok?',   nextPage: 30 }
+      ]
+    },
+
+    {
+      character: 'cavewes',
+      page: 30,
+      narrative: 'ga gaa gaa goog oogoogo',
+      options: [
+        { option: '...',   nextPage: 31 }
+      ]
+    },
+
+    {
+      character: 'cavewes',
+      page: 31,
+      narrative: 'GOOGAAGAA!!!',
+      options: [
+        { option: 'wtf',   nextPage: 32 }
+      ]
+    },
+
+    {
+      character: 'bonkwes',
+      page: 32,
+      narrative: '*BONK* someone bonks Wesley and he\'s out cold!',
+      options: [
+        { option: 'Who was that?',   nextPage: 33 }
+      ]
+    },
+
+    {
+      character: 'rh',
+      page: 33,
+      narrative: 'I hate cavemen!!! (TBC)',
+      options: [
+        { option: 'oh wow you are so sexy',   nextPage: 1 }
+      ]
+    },
+
+    {
+      character: 'wizC1',
+      page: 34,
+      narrative: '',
+      options: [
+        { option: '...',   nextPage: 34.1 }
+      ]
+    },
+
+    {
+      character: 'wizC2',
+      page: 34.1,
+      narrative: '',
+      options: [
+        { option: '...',   nextPage: 34.2 }
+      ]
+    },
+
+    {
+      character: 'wizC3',
+      page: 34.2,
+      narrative: '',
+      options: [
+        { option: '...',   nextPage: 35 }
+      ]
+    },
+
+    {
+      character: 'wizC3',
+      page: 35,
+      narrative: 'See? I\'m a sweetiepie',
+      options: [
+        { option: 'You are you aren\'t just constipated?',   nextPage: 36 },
+        { option: 'Mmm... you really are!',   nextPage: 37 }
+      ]
+    },
+
+    {
+      character: 'wizC3',
+      page: 36,
+      narrative: 'Shit you\'re right. Bye I gtg take a fat dook!',
+      options: [
+        { option: 'Bye!',   nextPage: 37 }
+      ]
+    },
+
+    {
+      character: 'wtfwes',
+      page: 37,
+      narrative: '*farts and shits* oops!',
+      options: [
+        { option: 'Did you just shit yourself???',   nextPage: 38 }
+      ]
+    },
+
+    {
+      character: 'bonkwes2',
+      page: 38,
+      narrative: '*BONK* Someone bonked Wesley and knocked his poopy ass out!',
+      options: [
+        { option: 'Who did that?',   nextPage: 39 },
+        { option: 'Haha bonk',   nextPage: 39 }
+      ]
+    },
+
+    {
+      character: 'rh',
+      page: 39,
+      narrative: 'I hate poopy pants! (TBC)',
+      options: [
+        { option: 'Me too!',   nextPage: 1 }
+      ]
+    },
+
+
+
+
+
+
 
 
 
