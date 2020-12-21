@@ -369,7 +369,7 @@ function fetchPage(page) {
       page: 21,
       narrative: 'Told you bitchhhh',
       options: [
-        { option: 'Hehe (game ends for now I gtg book in fml I\'ll add more content later',   nextPage: 1 }
+        { option: 'Hehe (game ends for now I gtg book in fml I\'ll add more content later)',   nextPage: 1 }
       ]
     },
 
