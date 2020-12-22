@@ -1,6 +1,8 @@
 let gameState = {}
 
+
 function preload () {
+
   // load in background and characters
   this.load.image('bg',      'https://content.codecademy.com/projects/learn-phaser/cyoa/background.png');
   this.load.image('kxKobi',  './images/kexinandkobi2.jpg');
@@ -26,8 +28,7 @@ function preload () {
   this.load.image('bonkwes', './images/bonkwes.jpg');
   this.load.image('bonkwes2','./images/bonk2.jpg');
   this.load.image('rh',      './images/rh1.jpg');
-
-
+  
 }
 
 
@@ -757,3 +758,4 @@ function fetchPage(page) {
 
   return pages.find(function(e) { if(e.page == page) return e });
 }
+
